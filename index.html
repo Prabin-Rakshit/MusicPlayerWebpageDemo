@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ninja Studio</title>
+	<!-- meta tag for responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawesome link -->
+	<script src="https://kit.fontawesome.com/2299d13c85.js" crossorigin="anonymous"></script>
+	<!-- css link -->
+	<link rel="stylesheet" type="text/css" href="css/MajorProject_MusicPlayer.css">
+</head>
+<body>
+
+<!--Header Section-->
+
+	<header>
+		
+		<!--Inside Header - Ninja Studio Tab-->
+
+		<div class="ninja-studio-tab">
+			<a href="#"><i class="fas fa-user-ninja"></i></a>
+			<span>
+				<p>Ninja <br><strong>Studio</strong></p>
+			</span>
+		</div>
+
+
+		<!--Inside Header - Favourites Tab-->
+
+
+		<div class="favourites-tab">
+			<a href="#">Favourites</a>
+		</div>
+
+
+		<!--Inside Header - SearchBar with Search Icon and Voice Recognition Icon Tab-->
+
+			
+		<div class="searchbar-container">
+			<a href="#">
+				<i class="fas fa-search text-lightgrey"></i>
+			</a>
+
+			<input id="header-search" type="text" name="input search" placeholder="Search music">
+
+			<a href="#">
+				<i class="fas fa-microphone text-lightgrey"></i>
+			</a>
+		</div>
+
+
+
+		<!--Indide Header - Notification And Profile Picture Tab-->
+
+
+		<div class="profile-tab">
+			<!-- Notification Bell Icon -->
+			<div class="header-bell-container">
+				<a href="#">
+					<i class="fas fa-bell"></i>
+				</a>
+			</div>	
+
+			<!-- Profile Picture -->
+			<div class="header-profile-container">
+				<a href="#">
+					<img src="static/profile photo/profilephoto.jpg" alt="profile photo">
+				</a>
+			</div>
+
+		</div>
+
+
+	</header>
+
+
+
+
+<div class="main-container">
+	<!-- Main Content -->
+	<main>
+
+	<!--Image Caraousal-->
+		<section class="image-caraousal">
+			
+			<div class="caraousal-container">
+		
+				<div class="album image1">
+					<a href="https://www.billboard.com/articles/news/9402735/billboard-best-albums-of-2020-so-far-poll" target="_blank">
+						<img class="album-pic" src="static/image caraousal/album1.png" alt="Best Albums of the Year 2020">
+					</a>
+				</div>
+
+				<div class="album image2">
+					<a href="https://www.billboard.com/charts/summer-songs" target="_blank">
+						<img class="album-pic" src="static/image caraousal/album2.png" alt="Summer Releases 2020">
+					</a>
+				</div>
+
+				<div class="album image3">
+					<a href="https://www.billboard.com/articles/news/8504489/2020-album-release-calendar/" target="_blank">
+						<img class="album-pic" src="static/image caraousal/album3.jpg" alt="September 11th New Music Releases">
+					</a>
+				</div>
+
+			</div>
+
+		</section>
+
+
+	<!--Inside Main - Latest Release Section-->
+		<section class="music-divs latest-release">
+			<h3>Latest Release</h3>
+			<div class="music-section-container">
+				<div class="music-block">
+					<div class="song-image">
+						<img src="static/artist images/onism.jpg" alt="onism image">
+						<div class="playpause-checkbox1">
+							<input type="checkbox" id="play-pause1" />
+							<label for="play-pause1" id="play-pause-label1" class="win-button"></label>
+						</div>	
+					</div>
+
+					<div class="song-name-release-date">
+						<p class="font-bold">Onism</p>
+						<p class="text-lightgrey">AUG 11, 2017</p>
+					</div>
+
+					<div class="song-icon">
+						<div class="dropdown">
+							<a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                                <div class="dropdown-content">
+                                    <p>
+                                        <a href="#"><span><i class="fas fa-play"></i></span></a>
+                                        <span>Play Now</span>
+                                   	</p>
+                                    <p>
+                                        <a href="#"><span><i class="fas fa-plus"></i></span></a>
+                                        <span>Add To Queue</span>
+                                    </p>
+                                    <p>
+                                        <a href="#"><span><i class="fas fa-list-ul"></i></span></a>
+                                        <span>Add To Favourites</span>
+                                    </p>
+                                    <p>
+                                        <a href="#"><span><i class="fas fa-info-circle"></i></span></a>
+                                        <span>Get Info</span>
+                                    </p>
+                                </div>
+						</div>
+
+						<p>4.44</p>
+					</div>
+
+				</div>
+
+
+				<div class="music-block">
+					<div class="song-image">
+						<img src="static/artist images/onism.jpg" alt="onism image">
+						<div class="playpause-checkbox1">
+							<input type="checkbox" id="play-pause2" />
+							<label for="play-pause2" id="play-pause-label2" class="win-button"></label>
+						</div>	
+					</div>
+
+					<div class="song-name-release-date">
+						<p class="font-bold">Onism</p>
+						<p class="text-lightgrey">AUG 11, 2017</p>
+					</div>
+
+					<div class="song-icon">
+						<div class="dropdown">
+							<a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                                <div class="dropdown-content">
+                                    <p>
+                                        <a href="#"><span><i class="fas fa-play"></i></span></a>
+                                        <span>Play Now</span>
+                                   	</p>
+                                    <p>
+                                        <a href="#"><span><i class="fas fa-plus"></i></span></a>
+                                        <span>Add To Queue</span>
+                                    </p>
+                                    <p>
+                                        <a href="#"><span><i class="fas fa-list-ul"></i></span></a>
+                                        <span>Add To Favourites</span>
+                                    </p>
+                                    <p>
+                                        <a href="#"><span><i class="fas fa-info-circle"></i></span></a>
+                                        <span>Get Info</span>
+                                    </p>
+                                </div>
+						</div>
+
+						<p>4.44</p>
+					</div>
+
+				</div>
+
+
+				<div class="music-block">
+					<div class="song-image">
+						<img src="static/artist images/onism.jpg" alt="onism image">
+						<div class="playpause-checkbox3">
+							<input type="checkbox" id="play-pause3" />
+							<label for="play-pause3" id="play-pause-label3" class="win-button"></label>
+						</div>
+					</div>
+
+					<div class="song-name-release-date">
+						<p class="font-bold">Onism</p>
+						<p class="text-lightgrey">AUG 11, 2017</p>
+					</div>
+
+					<div class="song-icon">
+						<div class="dropdown">
+							<a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                                <div class="dropdown-content">
+                                    <p>
+                                        <a href="#"><span><i class="fas fa-play"></i></span></a>
+                                        <span>Play Now</span>
+                                   	</p>
+                                    <p>
+                                        <a href="#"><span><i class="fas fa-plus"></i></span></a>
+                                        <span>Add To Queue</span>
+                                    </p>
+                                    <p>
+                                        <a href="#"><span><i class="fas fa-list-ul"></i></span></a>
+                                        <span>Add To Favourites</span>
+                                    </p>
+                                    <p>
+                                        <a href="#"><span><i class="fas fa-info-circle"></i></span></a>
+                                        <span>Get Info</span>
+                                    </p>
+                                </div>
+						</div>
+
+						<p>4.44</p>
+					</div>
+
+				</div>
+
+
+				<div class="music-block">
+					<div class="song-image">
+						<img src="static/artist images/onism.jpg" alt="onism image">
+						<div class="playpause-checkbox4">
+							<input type="checkbox" id="play-pause4" />
+							<label for="play-pause4" id="play-pause-label4" class="win-button"></label>
+						</div>	
+					</div>
+
+					<div class="song-name-release-date">
+						<p class="font-bold">Onism</p>
+						<p class="text-lightgrey">AUG 11, 2017</p>
+					</div>
+
+					<div class="song-icon">
+						<div class="dropdown">
+							<a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                                <div class="dropdown-content">
+                                    <p>
+                                        <a href="#"><span><i class="fas fa-play"></i></span></a>
+                                        <span>Play Now</span>
+                                   	</p>
+                                    <p>
+                                        <a href="#"><span><i class="fas fa-plus"></i></span></a>
+                                        <span>Add To Queue</span>
+                                    </p>
+                                    <p>
+                                        <a href="#"><span><i class="fas fa-list-ul"></i></span></a>
+                                        <span>Add To Favourites</span>
+                                    </p>
+                                    <p>
+                                        <a href="#"><span><i class="fas fa-info-circle"></i></span></a>
+                                        <span>Get Info</span>
+                                    </p>
+                                </div>
+						</div>
+
+						<p>4.44</p>
+					</div>
+
+				</div>
+			</div>
+
+		</section>
+
+
+
+	<!--Inside Main - Popular Artists Section-->
+		<section class=" music-divs popular-artist">
+			<h3>Popular Artist</h3>
+			<div class="popular-artist-container">
+				<div class="artist-block">
+					<div class="artist-image">
+						<a href="PopularArtist.html" target="_blank"><img src="static/artist images/bruno mars.jpg" alt="bruno mars image"></a>
+					</div>
+
+					<div class="artist-name">
+						<p>Bruno Mars</p>
+					</div>
+				</div>
+
+
+				<div class="artist-block">
+					<div class="artist-image">
+						<a href="PopularArtist.html" target="_blank"><img src="static/artist images/charlie puth.jpg" alt="Charlie Puth image"></a>
+					</div>
+
+					<div class="artist-name">
+						<p>Charlie Puth</p>
+					</div>
+				</div>
+
+
+				<div class="artist-block">
+					<div class="artist-image">
+						<a href="PopularArtist.html" target="_blank"><img src="static/artist images/coldplay.jpg" alt="coldplay image"></a>
+					</div>
+
+					<div class="artist-name">
+						<p>ColdPlay</p>
+					</div>
+				</div>
+
+
+				<div class="artist-block">
+					<div class="artist-image">
+						<a href="PopularArtist.html" target="_blank"><img src="static/artist images/ed sheeran.jpg" alt="ed sheeran image"></a>
+					</div>
+
+					<div class="artist-name">
+						<p>Ed Sheeran</p>
+					</div>
+				</div>
+
+
+				<div class="artist-block">
+					<div class="artist-image">
+						<a href="PopularArtist.html" target="_blank"><img src="static/artist images/imaginedragons.jpg" alt="imaginedragons image"></a>
+					</div>
+
+					<div class="artist-name">
+						<p>Imagine Dragons</p>
+					</div>
+				</div>
+
+
+				<div class="artist-block">
+					<div class="artist-image">
+						<a href="PopularArtist.html" target="_blank"><img src="static/artist images/zayn.jpg" alt="zayn image"></a>
+					</div>
+
+					<div class="artist-name">
+						<p>Zayn</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+	<!--Inside Main - Music Station Section-->
+		<section class="music-divs" id="music-station">
+			
+			<div class="station-image">
+				<img src="static/music stations/musicstation.jpg" alt="musicstation image">
+			</div>
+
+
+
+			<div class="music-station-block">
+				<div class="music-station-image">
+					<img src="static/music stations/chill.jpg" alt="chill image">
+				</div>
+				<div class="music-title">
+					<p>Chill</p>
+				</div>
+			</div>
+
+
+
+
+			<div class="music-station-block">
+				<div class="music-station-image">
+					<img src="static/music stations/love.png" alt="love image">
+				</div>
+				<div class="music-title">
+					<p>Love</p>
+				</div>
+			</div>
+
+
+
+
+			<div class="music-station-block">
+				<div class="music-station-image">
+					<img src="static/music stations/pop.jpg" alt="pop image">
+				</div>
+				<div class="music-title">
+					<p>Pop</p>
+				</div>
+			</div>
+
+
+
+
+			<div class="music-station-block">
+				<div class="music-station-image">
+					<img src="static/music stations/retro.jpg" alt="retro image">
+				</div>
+				<div class="music-title">
+					<p>Retro</p>
+				</div>
+			</div>
+
+
+
+
+			<div class="music-station-block">
+				<div class="music-station-image">
+					<img src="static/music stations/rock.jpg" alt="rock image">
+				</div>
+				<div class="music-title">
+					<p>Rock</p>
+				</div>
+			</div>
+
+
+
+
+			<div class="music-station-block">
+				<div class="music-station-image">
+					<img src="static/music stations/workout.jpg" alt="workout image">
+				</div>
+				<div class="music-title">
+					<p>Workout</p>
+				</div>
+			</div>
+
+
+
+		</section>
+
+
+		<!--Inside Main - Music Mood Section-->
+		<section class="music-divs" id="music-mood">
+
+
+			<div class="music-mood-block">
+				<div class="music-mood-image">
+					<img src="static/music mood/electronic.jpg" alt="electronic image">
+				</div>
+
+				<div class="music-title">
+					<p>Electronic</p>
+				</div>
+			</div>
+
+
+
+			<div class="music-mood-block">
+				<div class="music-mood-image">
+					<img src="static/music mood/party.jpg" alt="party image">
+				</div>
+
+				<div class="music-title">
+					<p>Party</p>
+				</div>
+			</div>
+
+
+
+			<div class="music-mood-block">
+				<div class="music-mood-image">
+					<img src="static/music mood/roadtrip.jpg" alt="roadtrip image">
+				</div>
+
+				<div class="music-title">
+					<p>RoadTrip</p>
+				</div>
+			</div>
+
+
+
+		</section>
+
+
+<!--Inside Main - Latest English Section-->
+		<section class="music-divs" id="latest-english">
+			<h3>Latest English</h3>
+			<div class="latest-section-container">
+
+
+				<div class="latest-section-block">
+					<div class="playpause-checkbox5">
+						<input type="checkbox" id="play-pause5" />
+						<label for="play-pause5" id="play-pause-label5" class="win-button"></label>
+					</div>
+					<a href="#.latest-english">
+						<img src="static/latest english/bebe rexha.jpg" alt="bebe rexha image">
+					</a>
+
+					<p>Ferrari</p>
+					<p class="text-lightgrey text-size-small">AUG 11, 2017</p>
+				</div>
+
+
+
+				<div class="latest-section-block">
+					<div class="playpause-checkbox6">
+						<input type="checkbox" id="play-pause6" />
+						<label for="play-pause6" id="play-pause-label6" class="win-button"></label>
+					</div>
+					<a href="#.latest-english">
+						<img src="static/latest english/chainsmokers.jpg" alt="chainsmokers image">
+					</a>
+
+					<p>Sick Boy</p>
+					<p class="text-lightgrey text-size-small">AUG 11, 2017</p>
+				</div>
+
+
+
+
+				<div class="latest-section-block">
+					<div class="playpause-checkbox7">
+						<input type="checkbox" id="play-pause7" />
+						<label for="play-pause7" id="play-pause-label7" class="win-button"></label>
+					</div>
+					<a href="#.latest-english">
+						<img src="static/latest english/justin bieber.jpg" alt="justin bieber image">
+					</a>
+
+					<p>Fearless</p>
+					<p class="text-lightgrey text-size-small">AUG 11, 2017</p>
+				</div>
+
+
+
+				<div class="latest-section-block">
+					<div class="playpause-checkbox8">
+						<input type="checkbox" id="play-pause8" />
+						<label for="play-pause8" id="play-pause-label8" class="win-button"></label>
+					</div>
+					<a href="#.latest-english">
+						<img src="static/latest english/owlcity.jpg" alt="owlcity image">
+					</a>
+
+					<p>Mid Summer</p>
+					<p class="text-lightgrey text-size-small">AUG 11, 2017</p>
+				</div>
+
+
+
+				<div class="latest-section-block">
+					<div class="playpause-checkbox9">
+						<input type="checkbox" id="play-pause9" />
+						<label for="play-pause9" id="play-pause-label9" class="win-button"></label>
+					</div>
+					<a href="#.latest-english">
+						<img src="static/latest english/selena gomez.jpg" alt="selena gomez image">
+					</a>
+
+					<p>Fetish</p>
+					<p class="text-lightgrey text-size-small">AUG 11, 2017</p>
+				</div>
+
+
+
+				<div class="latest-section-block">
+					<div class="playpause-checkbox10">
+						<input type="checkbox" id="play-pause10" />
+						<label for="play-pause10" id="play-pause-label10" class="win-button"></label>
+					</div>
+					<a href="#.latest-english">
+						<img src="static/latest english/camila cabello.jpg" alt="camila cabello image">
+					</a>
+
+					<p>Havana</p>
+					<p class="text-lightgrey text-size-small">AUG 11, 2017</p>
+				</div>
+
+
+			</div>	
+
+
+		</section>
+
+
+
+<!--Inside Main - Latest Hindi Section-->
+		<section class="music-divs" id="latest-hindi">
+			<h3>Latest Hindi</h3>
+
+			<div class="latest-section-container">
+
+
+				<div class="latest-section-block">
+					<a href="#.latest-hindi">
+						<img src="static/latest hindi/bheegi.jpg" alt="bheegi image">
+					</a>
+
+					<p>Bheegi</p>
+					<p class="text-lightgrey text-size-small">AUG 11, 2017</p>
+				</div>
+
+
+
+				<div class="latest-section-block">
+					<a href="#.latest-hindi">
+						<img src="static/latest hindi/genda phool.jpg" alt="genda phool image">
+					</a>
+
+					<p>Genda Phool</p>
+					<p class="text-lightgrey text-size-small">AUG 11, 2017</p>
+				</div>
+
+
+
+				<div class="latest-section-block">
+					<a href="#.latest-hindi">
+						<img src="static/latest hindi/kurta pajama.jpg" alt="kurta pajama image">
+					</a>
+
+					<p>Kurta Pajama</p>
+					<p class="text-lightgrey text-size-small">AUG 11, 2017</p>
+				</div>
+
+
+
+				<div class="latest-section-block">
+					<a href="#.latest-hindi">
+						<img src="static/latest hindi/lagdi.jpg" alt="lagdi image">
+					</a>
+
+					<p>Lagdi</p>
+					<p class="text-lightgrey text-size-small">AUG 11, 2017</p>
+				</div>
+
+
+
+				<div class="latest-section-block">
+					<a href="#.latest-hindi">
+						<img src="static/latest hindi/tu hai wohi.jpg" alt="tu hai wohi image">
+					</a>
+
+					<p>Tu Hai Wohi</p>
+					<p class="text-lightgrey text-size-small">AUG 11, 2017</p>
+				</div>
+
+
+
+				<div class="latest-section-block">
+					<a href="#.latest-hindi">
+						<img src="static/latest hindi/video bana de.jpg" alt="video bana de image">
+					</a>
+
+					<p>Video Bana De</p>
+					<p class="text-lightgrey text-size-small">AUG 11, 2017</p>
+				</div>
+
+
+			</div>
+
+		</section>
+
+	</main>
+
+
+
+
+
+<!-- Aside Section -->
+	<aside>
+		<!-- Container for all the data -->
+		<div class="side-container">
+			<!-- Section 1 of container -->
+			<section class="queue-heading-container">
+
+				<div class="queue-heading-block">
+					<h2>Queue</h2>
+				</div>
+
+				<div class="queue-dropdown-block">
+					<span>Queue</span>
+					<i class="fas fa-angle-up"></i>
+					<div class="queue-dropdown-content">
+						<a href="#.side-container"><p class="text-size-small font-bold">Playlists</p></a> <hr>
+						<a href="#.side-container"><p class="text-size-small font-bold">Favourite Songs</p></a>
+					</div>
+				</div>
+
+			</section>
+
+			<!-- Section 2 of container -->
+			<section class="playlist-container music-divs">
+
+				<!-- All the Playlist containers -->
+				<div class="playlist-details-container">
+					<!-- Playlist Blocks inside Playlist Container -->
+					<div class="playlist-block">
+						<a href="#.playlist-container"><img src="static/latest english/bebe rexha.jpg" alt="bebe rexha image"></a>
+						<div>
+							<p>Ferrari</p>
+							<p class="text-lightgrey">Bebe Rexha</p>
+						</div>
+					</div>
+					<div class="playlist-block">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+
+
+
+				<div class="playlist-details-container">
+					<!-- Playlist Blocks inside Playlist Container -->
+					<div class="playlist-block">
+						<a href="#.playlist-container"><img src="static/latest hindi/bheegi.jpg" alt="bheegi image"></a>
+						<div>
+							<p>Bheegi</p>
+							<p class="text-lightgrey">Harsh Beniwal</p>
+						</div>
+					</div>
+
+					<div class="playlist-block">
+						<i class="far fa-heart"></i>
+					</div>
+
+				</div>
+
+
+
+				<div class="playlist-details-container">
+					<!-- Playlist Blocks inside Playlist Container -->
+					<div class="playlist-block">
+						<a href="#.playlist-container"><img src="static/latest english/camila cabello.jpg" alt="camila cabello image"></a>
+						<div>
+							<p>Havana</p>
+							<p class="text-lightgrey">Camila Cabello</p>
+						</div>
+					</div>
+					<div class="playlist-block">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+
+
+
+				<div class="playlist-details-container">
+					<!-- Playlist Blocks inside Playlist Container -->
+					<div class="playlist-block">
+						<a href="#.playlist-container"><img src="static/latest english/chainsmokers.jpg" alt="chainsmokers image"></a>
+						<div>
+							<p>Sick Boy</p>
+							<p class="text-lightgrey">Chainsmokers</p>
+						</div>
+					</div>
+					<div class="playlist-block">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+
+
+
+				<div class="playlist-details-container">
+					<!-- Playlist Blocks inside Playlist Container -->
+					<div class="playlist-block">
+						<a href="#.playlist-container"><img src="static/latest english/selena gomez.jpg" alt="selena gomez image"></a>
+						<div>
+							<p>Fetish</p>
+							<p class="text-lightgrey">Selena Gomez</p>
+						</div>
+					</div>
+					<div class="playlist-block">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+
+
+
+				<div class="playlist-details-container">
+					<!-- Playlist Blocks inside Playlist Container -->
+					<div class="playlist-block">
+						<a href="#.playlist-container"><img src="static/latest english/owlcity.jpg" alt="owlcity image"></a>
+						<div>
+							<p>Mid Summer</p>
+							<p class="text-lightgrey">Owl City</p>
+						</div>
+					</div>
+					<div class="playlist-block">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+
+
+
+				<div class="playlist-details-container">
+					<!-- Playlist Blocks inside Playlist Container -->
+					<div class="playlist-block">
+						<a href="#.playlist-container"><img src="static/latest english/bebe rexha.jpg" alt="bebe rexha image"></a>
+						<div>
+							<p>Ferrari</p>
+							<p class="text-lightgrey">Bebe Rexha</p>
+						</div>
+					</div>
+					<div class="playlist-block">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+
+
+
+				<div class="playlist-details-container">
+					<!-- Playlist Blocks inside Playlist Container -->
+					<div class="playlist-block">
+						<a href="#.playlist-container"><img src="static/latest hindi/bheegi.jpg" alt="bheegi image"></a>
+						<div>
+							<p>Bheegi</p>
+							<p class="text-lightgrey">Harsh Beniwal</p>
+						</div>
+					</div>
+					<div class="playlist-block">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+
+
+
+				<div class="playlist-details-container">
+					<!-- Playlist Blocks inside Playlist Container -->
+					<div class="playlist-block">
+						<a href="#.playlist-container"><img src="static/latest english/camila cabello.jpg" alt="camila cabello image"></a>
+						<div>
+							<p>Havana</p>
+							<p class="text-lightgrey">Camila Cabello</p>
+						</div>
+					</div>
+					<div class="playlist-block">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+
+
+
+				<div class="playlist-details-container">
+					<!-- Playlist Blocks inside Playlist Container -->
+					<div class="playlist-block">
+						<a href="#.playlist-container"><img src="static/latest english/chainsmokers.jpg" alt="chainsmokers image"></a>
+						<div>
+							<p>Sick Boy</p>
+							<p class="text-lightgrey">Chainsmokers</p>
+						</div>
+					</div>
+					<div class="playlist-block">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+
+
+
+				<div class="playlist-details-container">
+					<!-- Playlist Blocks inside Playlist Container -->
+					<div class="playlist-block">
+						<a href="#.playlist-container"><img src="static/latest english/selena gomez.jpg" alt="selena gomez image"></a>
+						<div>
+							<p>Fetish</p>
+							<p class="text-lightgrey">Selena Gomez</p>
+						</div>
+					</div>
+					<div class="playlist-block">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+
+
+
+				<div class="playlist-details-container">
+					<!-- Playlist Blocks inside Playlist Container -->
+					<div class="playlist-block">
+						<a href="#.playlist-container"><img src="static/latest english/owlcity.jpg" alt="owlcity image"></a>
+						<div>
+							<p>Mid Summer</p>
+							<p class="text-lightgrey">Owl City</p>
+						</div>
+					</div>
+					<div class="playlist-block">
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+
+
+			</section>
+
+		</div>
+			
+	</aside>
+
+</div>
+
+
+<!-- Footer Section -->
+		<footer>
+
+			<!-- Music player blocks -->
+			<div class="musicplayer-album-block">
+				<div class="playlist-block">
+					<a href="#footer"><img src="static/latest english/owlcity.jpg" alt="owlcity image"></a>
+					<div>
+						<p>Mid Summer</p>
+						<p class="text-lightgrey">Owl City</p>
+					</div>
+				</div>
+				<div class="playlist-block">
+					<i class="far fa-heart"></i>
+				</div>
+				<div class="playlist-block">
+					<i class="fas fa-ban"></i>
+				</div>
+			</div>
+
+
+
+			<div class="musicplayer-progress-block">
+				<ul class="horizontal-control-list">
+					<li><i class="fas fa-random"></i></li>
+					<li><i class="fas fa-step-backward"></i></li>
+					<li>
+						<div class="playpause-button-container">
+							<div class="playpause-checkbox">
+								<input type="checkbox" id="play-pause" />
+								<label for="play-pause" id="play-pause-label" class="win-button"></label>
+							</div>
+						</div>
+					</li>
+					<li><i class="fas fa-step-forward"></i></li>
+					<li><i class="fas fa-redo-alt"></i></li>
+				</ul>
+
+
+				<div class="timer-controls">
+					<span>
+						<p class="timer-start">1:39</p>
+					</span>
+
+					<div class="outer-bar">
+						<div class="inner-bar-progress"></div>
+					</div>
+
+					<span>
+						<p class="timer-end">4:44</p>
+					</span>
+				</div>
+			</div>
+
+
+
+			<div class="musicplayer-volume-block">
+				<ul class="horizontal-control-list">
+					<li><i class="fas fa-bars"></i></li>
+					<li><i class="fab fa-bluetooth-b"></i></li>
+					<!-- Volume Bar for songs -->
+					<li>
+						<div class="outer-bar" id="volume-bar">
+							<div class="inner-bar-progress"></div>
+						</div>
+					</li>
+					<li><i class="fas fa-expand-alt"></i></li>
+				</ul>
+			</div>
+
+
+
+		</footer>
+
+</div>
+
+</body>
+</html>
